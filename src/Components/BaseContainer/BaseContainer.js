@@ -6,7 +6,7 @@ const BaseContainer = ({children}) => {
 	return (
 		<>
 			<CssBaseLine />
-			<Container maxWidth='lg' sx={{ bgcolor: '#cfe8fc' }}>
+			<Container maxWidth='xl' sx={{ bgcolor: '#cfe8fc' }}>
                 {children}
             </Container>
 		</>

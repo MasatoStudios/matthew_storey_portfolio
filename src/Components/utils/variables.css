@@ -1,0 +1,19 @@
+:root{
+    --main-background-color: #545454;
+    --yellow-accent: #e1b315;
+    --yellow: #ffecc2;
+    --main-green: #093107;
+    --main-link-color: #000;
+}
+
+.yellow-accent{
+    color: var(--yellow-accent);
+}
+
+.green-accent{
+    color: var(--main-green);
+}
+
+.yellow-test{
+    background-color: var(--yellow);
+}

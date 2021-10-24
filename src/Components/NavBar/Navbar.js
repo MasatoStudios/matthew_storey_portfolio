@@ -40,7 +40,8 @@ const navbar = () => {
 				>
 					EN
 				</NavLink>
-				|
+
+				<span className="green-accent">|</span>
 				<NavLink
 					activeStyle={{ fontWeight: '400' }}
 					className='link'

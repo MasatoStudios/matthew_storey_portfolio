@@ -10,14 +10,14 @@ import { Route, Switch } from 'react-router';
 
 function App() {
   return (
-    <>
+    <main>
       <Switch>
         <Route path="/" component={Home} exact></Route>
         <Route path="/work" component={Work}></Route>
         <Route path="/contact" component={Contact}></Route>
         <Route component={Error} />
       </Switch>
-    </>
+    </main>
   );
 }
 

@@ -1,0 +1,50 @@
+.front-page-container {
+	height: 100%;
+	min-height: 85vh;
+	/* background: blueviolet; */
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.title-container {
+	width: 75%;
+}
+
+.text-wrapper {
+	margin-top: 19rem;
+    margin-left: 4rem;
+    border-right: 2px solid black;
+    margin-right: 30rem;
+}
+
+.name-title,
+.description-title {
+	font-family: 'Raleway', 'Poppins', sans-serif;
+}
+
+.name-title {
+	font-size: 4.5rem;
+	font-weight: 200;
+}
+
+.description-title {
+
+	font-size: 1.5rem;
+	font-weight: 400;
+    text-align: left;
+    margin-right: 9rem;
+}
+
+
+
+.scroll-down{
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    margin-left: -50px ;
+    font-size: 400;
+    
+}

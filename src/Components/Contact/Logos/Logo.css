@@ -1,0 +1,32 @@
+@import '../../utils/variables.css';
+
+.link-wrapper{
+    margin-top: 6rem;
+    margin-bottom: 12rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+}
+
+.links-list{
+    list-style-type: none;
+}
+
+.links-list:not(:last-child) {
+	margin-bottom: 1.25rem;
+}
+
+.links-list a{
+    text-decoration: none;
+	color: black;
+	font-size: 1.75rem;
+}
+
+.disabled-link{
+    color: var(--black);
+    text-decoration: line-through;
+    pointer-events: none;
+}

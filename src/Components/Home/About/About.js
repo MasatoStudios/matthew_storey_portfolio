@@ -28,7 +28,7 @@ const About = () => {
 			<p className='third-about-paragraph'>
 				For any queries, please don’t hesitate to contact me. For more info
 				please check out the {" "}
-				<NavLink to='/contact' className='contact-link'>
+				<NavLink to='/contact' className='contact-link hover'>
 				Contact 
 				</NavLink>
 				 {" "}page

@@ -1,3 +1,5 @@
+@import '../../utils/variables.css';
+
 .about-section {
 	margin-top: 5rem;
 	min-height: 86vh;
@@ -36,6 +38,6 @@
 
 .contact-link {
 	color: black;
-	font-weight: 400;
-	text-decoration: underline;
+	font-weight: 600;
+	text-decoration: underline 3px;
 }

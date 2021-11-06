@@ -29,15 +29,15 @@ const Footer = () => {
 
 			<div class='links'>
 				<ul class='icon-links'>
-					<li className='icon-list-links'>
+					<li className='icon-list-links '>
 						<Link
 							to={{
-								pathname: 'https://www.google.com',
+								pathname: 'https://discordapp.com/users/231806830903296000/',
 							}}
 							target='_blank'
 						>
 							<FontAwesomeIcon
-								className='social-media-icons'
+								className='social-media-icons hover'
 								icon={['fab', 'discord']}
 							/>
 						</Link>
@@ -49,23 +49,29 @@ const Footer = () => {
 							body=''
 						>
 							<FontAwesomeIcon
-								className='social-media-icons'
+								className='social-media-icons hover'
 								icon={['fas', 'envelope']}
 							/>
 						</Mailto>
 					</li>
 					<li className='icon-list-links'>
-						<Link to={{ pathname: 'https://bing.com' }} target='_blank'>
+						<Link
+							to={{ pathname: 'https://github.com/MasatoStudios' }}
+							target='_blank'
+						>
 							<FontAwesomeIcon
-								className='social-media-icons'
+								className='social-media-icons hover'
 								icon={['fab', 'github']}
 							/>
 						</Link>
 					</li>
 					<li className='icon-list-links'>
-						<Link to={{ pathname: 'https://www.twitter.com' }} target='_blank'>
+						<Link
+							to={{ pathname: 'https://twitter.com/MatthewStorey__' }}
+							target='_blank'
+						>
 							<FontAwesomeIcon
-								className='social-media-icons'
+								className='social-media-icons hover'
 								icon={['fab', 'twitter']}
 							/>
 						</Link>

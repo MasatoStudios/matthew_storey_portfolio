@@ -4,11 +4,11 @@ import { NavLink } from 'react-router-dom'
 
 const navbar = () => {
 	return (
-		<nav className="nav-bar-links">
-			<div className="nav-links">
+		<nav className='nav-bar-links'>
+			<div className='nav-links'>
 				<NavLink
 					activeStyle={{ fontWeight: '300' }}
-					className='link'
+					className='link hover'
 					to='/'
 					exact
 				>
@@ -16,7 +16,7 @@ const navbar = () => {
 				</NavLink>
 				<NavLink
 					activeStyle={{ fontWeight: '300' }}
-					className='link'
+					className='link hover'
 					to='/work'
 					exact
 				>
@@ -24,7 +24,7 @@ const navbar = () => {
 				</NavLink>
 				<NavLink
 					activeStyle={{ fontWeight: '300' }}
-					className='link'
+					className='link hover'
 					to='/contact'
 					exact
 				>
@@ -34,17 +34,17 @@ const navbar = () => {
 			<div className='language-links'>
 				<NavLink
 					activeStyle={{ fontWeight: '400' }}
-					className='link'
+					className='link hover'
 					to='/'
 					exact
 				>
 					EN
 				</NavLink>
 
-				<span className="green-accent">|</span>
+				<span className='green-accent'>|</span>
 				<NavLink
 					activeStyle={{ fontWeight: '400' }}
-					className='link'
+					className='link hover'
 					to='/jp/'
 					exact
 				>

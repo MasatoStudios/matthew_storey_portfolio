@@ -1,11 +1,14 @@
-import Navbar from "../Components/NavBar/Navbar"
+import Template from '../Components/Template/Template'
+import Title from '../Components/Contact/Title/Title'
+import Logo from '../Components/Contact/Logos/Logo'
+
 
 const Contact = () => {
     return (
-        <>
-            <Navbar />
-            this is the contact page
-        </>
+            <Template>
+                <Title />
+                <Logo />
+            </Template>
     )
 }
 

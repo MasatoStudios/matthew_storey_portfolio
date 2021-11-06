@@ -1,0 +1,19 @@
+.title-wrapper{
+    margin-top: 6rem;
+}
+
+.first-title,
+.second-title{
+    font-family: 'Poppins', 'Raleway', sans-serif;
+}
+
+.first-title{
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+
+.second-title{
+    margin-left: 5.5rem;
+    font-size: 4rem;
+    font-weight: 500;
+}

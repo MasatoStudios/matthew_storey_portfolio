@@ -1,19 +1,58 @@
-:root{
-    --main-background-color: #545454;
-    --yellow-accent: #e1b315;
-    --yellow: #ffecc2;
-    --main-green: #093107;
-    --main-link-color: #000;
+:root {
+	--main-background-color: #545454;
+	--yellow-accent: #e1b315;
+	--yellow: #ffecc2;
+	--main-green: #093107;
+	--main-link-color: #000;
+	--black: #000;
+	--white: #fff;
+	--hover-color: #b799d1;
 }
 
-.yellow-accent{
-    color: var(--yellow-accent);
+.yellow-accent {
+	color: var(--yellow-accent);
 }
 
-.green-accent{
-    color: var(--main-green);
+.green-accent {
+	color: var(--main-green);
 }
 
-.yellow-test{
-    background-color: var(--yellow);
+.yellow-test {
+	background-color: var(--yellow);
+}
+
+.hover {
+	color: var(--black);
+	transition: 0.2s color ease-in-out;
+}
+
+.hover:hover {
+	color: var(--hover-color);
+}
+
+.container-hover {
+	transition: background 0.7s ease-in;
+}
+.container-hover:hover {
+	background: var(--hover-color);
+}
+
+.black {
+	color: var(--black);
+}
+
+.white {
+	color: var(--white);
+}
+
+.image-container {
+	width: 100%;
+	display: flex;
+
+	justify-content: center;
+}
+
+.case-image {
+	width: 65%;
+	object-fit: contain;
 }

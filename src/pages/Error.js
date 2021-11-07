@@ -1,9 +1,12 @@
+import Template from '../Components/Template/Template'
+import ErrorPage from '../Components/Error/Error'
+
 const Error = () => {
     return (
-        <>
-            this is the error page
-        </>
-    )
+			<Template>
+				<ErrorPage />
+			</Template>
+		)
 }
 
 export default Error

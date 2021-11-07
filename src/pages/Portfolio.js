@@ -1,5 +1,5 @@
 import Template from '../Components/Template/Template'
-import Image from '../images/finishedMockup.png'
+import Image from '../images/finishedMockup-min.png'
 
 import '../Components/utils/variables.css'
 
@@ -17,20 +17,35 @@ const Portfolio = () => {
 					minimalistic site which showcases all my skills. The whole site uses
 					ES6 standards such as arrow functions and hooks with props. Overall I
 					am really happy with the final piece. However, in the future I do plan
-					to add a playgrounds tab where I can add all experimental features I create.
+					to add a playgrounds tab where I can add all experimental features I
+					create.
 				</p>
 				<h3 className='technologies'>Technologies used:</h3>
 				<ul className='bullet-list'>
-					<li className='bullet-points'><span>React with hooks(ES6)</span></li>
-					<li className='bullet-points'><span>React-router-dom</span></li>
-					<li className='bullet-points'><span>Material UI</span></li>
-					<li className='bullet-points'><span>Font Awesome for React</span></li>
+					<li className='bullet-points'>
+						<span>React with hooks(ES6)</span>
+					</li>
+					<li className='bullet-points'>
+						<span>React-router-dom</span>
+					</li>
+					<li className='bullet-points'>
+						<span>Material UI</span>
+					</li>
+					<li className='bullet-points'>
+						<span>Font Awesome for React</span>
+					</li>
 				</ul>
-                <ul className='bullet-list'>
-                    <li className='bullet-points'><span>Figma (Prototyping)</span></li>
-                    <li className='bullet-points'><span>Adobe Photoshop (Mockups)</span></li>
-                    <li className='bullet-points'><span>Adobe Illustrator (Graphics)</span></li>
-                </ul>
+				<ul className='bullet-list'>
+					<li className='bullet-points'>
+						<span>Figma (Prototyping)</span>
+					</li>
+					<li className='bullet-points'>
+						<span>Adobe Photoshop (Mockups)</span>
+					</li>
+					<li className='bullet-points'>
+						<span>Adobe Illustrator (Graphics)</span>
+					</li>
+				</ul>
 			</div>
 		</Template>
 	)

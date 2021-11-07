@@ -1,5 +1,5 @@
 import Template from '../Components/Template/Template'
-import Image from '../images/Mockup.png'
+import Image from '../images/Mockup-min.png'
 
 import { Link } from 'react-router-dom'
 

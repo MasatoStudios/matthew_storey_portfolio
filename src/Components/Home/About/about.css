@@ -41,3 +41,44 @@
 	font-weight: 600;
 	text-decoration: underline 3px;
 }
+
+/* Media Queries */
+
+/* Small devices */
+@media screen and (max-width: 600px) {
+}
+
+/* Landscape tablets */
+@media screen and (max-width: 768px) {
+	.about-section p {
+		font-size: 1.4rem !important;
+		/* background: chartreuse; */
+	}
+}
+
+/* Landscape tablets */
+@media screen and (max-width: 992px) {
+}
+
+/* Large laptops and desktops */
+@media screen and (max-width: 1200px) {
+
+	.third-about-paragraph {
+	margin-top: 0 !important;
+	font-style: italic;
+}
+
+	.first-about-paragraph,
+	.second-about-paragraph,
+	.third-about-paragraph {
+		margin-bottom: 1.5rem;
+	}
+
+	.about-section p {
+		font-size: 1.7rem;
+	}
+
+	.third-about-paragraph {
+		margin-bottom: 3rem;
+	}
+}

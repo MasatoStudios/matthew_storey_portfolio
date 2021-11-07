@@ -48,3 +48,59 @@
     font-size: 400;
     
 }
+
+
+
+
+/* Media Queries */
+
+/* Small devices */
+@media screen and (max-width: 600px){
+
+}
+
+/* Landscape tablets */
+@media screen and (max-width: 768px) {
+
+	.name-title{
+		font-size: 2.5rem;
+	}
+
+	.description-title{
+		font-size: 1rem;
+		margin-right: 0;
+		text-align: center !important;
+	}
+	
+
+	.scroll-down{
+		bottom: 3rem;
+	}
+}
+
+/* Landscape tablets */
+@media screen and (max-width: 992px) {
+	
+}
+
+/* Large laptops and desktops */
+@media screen and (max-width: 1200px) {
+
+	.name-title{
+		margin-top: 3rem;
+	}
+
+	.text-wrapper{
+		margin-top: 7rem;
+		margin-right: 0;
+		margin-left: 0;
+		border-bottom: 1px solid black;
+		border-right: none;
+	}
+	.title-container{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	
+}

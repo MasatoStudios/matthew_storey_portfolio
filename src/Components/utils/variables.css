@@ -41,6 +41,14 @@
 	color: var(--black);
 }
 
+.black-background {
+	background: var(--black);
+}
+
+.white-background {
+	background: var(--white);
+}
+
 .white {
 	color: var(--white);
 }
@@ -87,7 +95,6 @@
 	font-size: 1.4rem;
 }
 
-
-.bullet-list:last-child{
+.bullet-list:last-child {
 	margin-bottom: 5rem;
 }

@@ -18,13 +18,13 @@
 }
 
 .website {
-	background: url(../../../images/finishedMockup.png);
+	background: url(../../../images/finishedMockup-min.png);
 	background-position: center 35%;
 	background-size: cover;
 }
 
 .uni-site {
-	background: url(../../../images/Mockup.png);
+	background: url(../../../images/Mockup-min.png);
 	background-position: center 40%;
 	background-size: cover;
 }

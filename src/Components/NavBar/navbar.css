@@ -44,3 +44,14 @@
 .listItem {
 	list-style-type: none;
 }
+
+
+@media screen and (max-width: 400px) {
+	.nav-bar-links{
+		justify-content: center;
+	}
+
+	.language-links{
+		display: none;
+	}
+}

@@ -45,6 +45,12 @@
 	color: var(--white);
 }
 
+.contact-link {
+	color: black;
+	font-weight: 600;
+	text-decoration: underline 3px;
+}
+
 .image-container {
 	width: 100%;
 	display: flex;
@@ -52,7 +58,36 @@
 	justify-content: center;
 }
 
+/* Styles for Case Study */
+
+.showcase-text {
+	margin-top: 6rem;
+	margin-bottom: 2rem;
+	font-size: 2rem;
+}
+
 .case-image {
-	width: 65%;
+	max-width: 100%;
 	object-fit: contain;
+}
+
+.technologies {
+	margin-top: 5rem;
+	font-weight: 500;
+	font-size: 2rem;
+	border-bottom: 1px solid black;
+}
+
+.bullet-list {
+	margin-top: 3rem;
+	margin-left: 6rem;
+}
+
+.bullet-list span {
+	font-size: 1.4rem;
+}
+
+
+.bullet-list:last-child{
+	margin-bottom: 5rem;
 }

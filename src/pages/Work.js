@@ -17,7 +17,7 @@ const Work = () => {
 					title='University Assignment'
 					destination='/work/uni-site'
 				/>
-				<h2 style={{ fontWeight: '400' }}>
+				<h2 style={{ fontWeight: '400', marginBottom: '3.5rem' }}>
 					For more work please check out my{' '}
 					<Link
 						to={{ pathname: 'https://github.com/MasatoStudios' }}

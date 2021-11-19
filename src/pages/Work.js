@@ -2,8 +2,12 @@ import Template from '../Components/Template/Template'
 import BlockContainer from '../Components/Work/BlockContainer/BlockContainer'
 
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 const Work = () => {
+	useEffect(() => {
+		document.title = 'Matthew Storey | Work'
+	}, [])
 	return (
 		<div>
 			<Template>

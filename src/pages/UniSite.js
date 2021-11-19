@@ -2,8 +2,12 @@ import Template from '../Components/Template/Template'
 import Image from '../images/Mockup-min.png'
 
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 const UniSite = () => {
+	useEffect(() => {
+		document.title = 'Matthew Storey | University Assignment'
+	}, [])
 	return (
 		<Template>
 			<div className='image-container'>

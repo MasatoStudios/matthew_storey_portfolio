@@ -3,7 +3,12 @@ import Image from '../images/finishedMockup-min.png'
 
 import '../Components/utils/variables.css'
 
+import { useEffect } from 'react'
+
 const Portfolio = () => {
+	useEffect(() => {
+		document.title = 'Matthew Storey | Portfolio Case Study'
+	}, [])
 	return (
 		<Template>
 			<div className='image-container'>
